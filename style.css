@@ -1,0 +1,60 @@
+*, html {
+   margin: 0;
+   padding: 0;
+   background-color: blue;
+   color: aliceblue;
+   text-align: center;
+}
+
+h1, h3 {
+   padding: 1.5rem;
+}
+
+button {
+   padding: .5rem;
+}
+
+.grid {
+   border: 1px solid wheat;
+   display: flex;
+   flex-wrap: wrap;
+   width: 180px;
+   height: 180px;
+   margin: 0 auto;
+}
+
+.grid div {
+   width: 20px;
+   height: 20px;
+}
+
+.ending-block {
+   background-color: red;
+}
+
+.starting-block {
+   background-color: yellow;
+}
+
+.c1 {
+   background-image: url('car.jpeg');
+   background-size: cover;
+}
+
+.c2, .c3 {
+   background-color: gray;
+}
+
+.l1, .l2, .l3 {
+   background-image: url('log.png');
+   background-size: cover;
+}
+
+.l4, .l5 {
+   background-color: rgb(54, 80, 30);
+}
+
+.frog {
+   background-image: url('frog.jpeg');
+   background-size: cover;
+}
